@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TestSCAMP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TestSCAMP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/usr/include" />
+				</Compiler>
+				<Linker>
+					<Add library="libportaudio" />
+					<Add library="libfftw3f" />
+					<Add library="libpthread" />
+					<Add library="libm" />
+					<Add library="libncurses" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TestSCAMP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/EccFr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/TestGolay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/TestSCAMP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/TestSCAMP.h" />
+		<Unit filename="src/cwmod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cwmod.h" />
+		<Unit filename="src/dspint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dspint.h" />
+		<Unit filename="src/eccfr.h" />
+		<Unit filename="src/golay.h" />
+		<Unit filename="src/pa_memorybarrier.h" />
+		<Unit filename="src/pa_ringbuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pa_ringbuffer.h" />
+		<Unit filename="src/pa_util.h" />
+		<Unit filename="src/rtty.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtty.h" />
+		<Unit filename="src/scamp.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

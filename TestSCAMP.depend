@@ -1,0 +1,422 @@
+# depslib dependency file v1.0
+1644507318 source:/home/alberto/Scaricati/src/cwmod.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<unistd.h>
+	"dspint.h"
+	"cwmod.h"
+
+1645628723 /home/alberto/Scaricati/src/dspint.h
+	"scamp.h"
+	"cwmod.h"
+	"rtty.h"
+
+1645628776 /home/alberto/Scaricati/src/scamp.h
+
+1644507318 /home/alberto/Scaricati/src/cwmod.h
+
+1644507318 /home/alberto/Scaricati/src/rtty.h
+
+1643028824 /usr/include/stdio.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<bits/types.h>
+	<bits/types/__FILE.h>
+	<bits/types/FILE.h>
+	<bits/libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<bits/getopt_posix.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1643028824 /usr/include/stdlib.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<bits/floatn.h>
+	<bits/types/locale_t.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1643028824 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1643028824 /usr/include/features.h
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1643028824 /usr/include/stdc-predef.h
+
+1643028824 /usr/include/stdint.h
+	<bits/libc-header-start.h>
+	<bits/types.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+	<bits/stdint-intn.h>
+	<bits/stdint-uintn.h>
+
+1643028824 /usr/include/string.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<bits/types/locale_t.h>
+	<strings.h>
+	<bits/string_fortified.h>
+
+1643028824 /usr/include/strings.h
+	<features.h>
+	<stddef.h>
+	<bits/types/locale_t.h>
+	<bits/strings_fortified.h>
+
+1643028824 /usr/include/math.h
+	<bits/libc-header-start.h>
+	<bits/types.h>
+	<bits/math-vector.h>
+	<bits/floatn.h>
+	<bits/flt-eval-method.h>
+	<bits/fp-logb.h>
+	<bits/fp-fast.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/iscanonical.h>
+	<bits/mathinline.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+
+1643028824 /usr/include/unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<bits/getopt_posix.h>
+	<bits/unistd.h>
+
+1645478170 source:/home/alberto/Scaricati/src/dspint.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<pthread.h>
+	"dspint.h"
+	"scamp.h"
+	"eccfr.h"
+	"golay.h"
+	"portaudio.h"
+	"pa_ringbuffer.h"
+	"pa_util.h"
+	"fftw3.h"
+	"TestSCAMP.h"
+
+1643028824 /usr/include/pthread.h
+	<features.h>
+	<endian.h>
+	<sched.h>
+	<time.h>
+	<bits/pthreadtypes.h>
+	<bits/setjmp.h>
+	<bits/wordsize.h>
+	<bits/types/struct_timespec.h>
+
+1643028824 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+	<bits/uintn-identity.h>
+
+1643028824 /usr/include/sched.h
+	<features.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/types/time_t.h>
+	<bits/types/struct_timespec.h>
+	<time.h>
+	<bits/sched.h>
+	<bits/cpu-set.h>
+
+1643028824 /usr/include/time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types/clock_t.h>
+	<bits/types/time_t.h>
+	<bits/types/struct_tm.h>
+	<bits/types/struct_timespec.h>
+	<bits/types/clockid_t.h>
+	<bits/types/timer_t.h>
+	<bits/types/struct_itimerspec.h>
+	<bits/types/locale_t.h>
+
+1644507318 /home/alberto/Scaricati/src/eccfr.h
+
+1644507318 /home/alberto/Scaricati/src/golay.h
+
+1482700114 /usr/include/portaudio.h
+
+1644507318 /home/alberto/Scaricati/src/pa_ringbuffer.h
+	<sys/types.h>
+
+1644507318 /home/alberto/Scaricati/src/pa_util.h
+	"portaudio.h"
+
+1512854158 /usr/include/fftw3.h
+	<stdio.h>
+	<stddef.h>
+
+1645628723 /home/alberto/Scaricati/src/TestSCAMP.h
+
+1644931070 source:/home/alberto/Scaricati/src/EccFr.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"eccfr.h"
+
+1644507318 source:/home/alberto/Scaricati/src/pa_ringbuffer.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"pa_ringbuffer.h"
+	<string.h>
+	"pa_memorybarrier.h"
+
+1644507318 /home/alberto/Scaricati/src/pa_memorybarrier.h
+	<libkern/OSAtomic.h>
+	<stdatomic.h>
+	<intrin.h>
+
+1644507318 source:/home/alberto/Scaricati/src/rtty.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<unistd.h>
+	"dspint.h"
+	"rtty.h"
+
+1644507318 source:/home/alberto/Scaricati/src/TestGolay.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"golay.h"
+
+1645473347 source:/home/alberto/Scaricati/src/TestSCAMP.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<pthread.h>
+	"portaudio.h"
+	"pa_ringbuffer.h"
+	"pa_util.h"
+	"scamp.h"
+	"dspint.h"
+	"eccfr.h"
+	"golay.h"
+	"fftw3.h"
+	"TestSCAMP.h"
+
+1646568426 source:/home/alberto/TestSCAMP AOA/src/cwmod.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<unistd.h>
+	"dspint.h"
+	"cwmod.h"
+
+1645731939 /usr/include/features-time64.h
+	<bits/wordsize.h>
+	<bits/timesize.h>
+
+1646568424 /home/alberto/TestSCAMP AOA/src/dspint.h
+	"scamp.h"
+	"cwmod.h"
+	"rtty.h"
+
+1646568426 /home/alberto/TestSCAMP AOA/src/scamp.h
+
+1646568424 /home/alberto/TestSCAMP AOA/src/cwmod.h
+
+1646568424 /home/alberto/TestSCAMP AOA/src/rtty.h
+
+1647032777 source:/home/alberto/TestSCAMP AOA/src/dspint.c
+	<ncurses.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<pthread.h>
+	"dspint.h"
+	"scamp.h"
+	"eccfr.h"
+	"golay.h"
+	"portaudio.h"
+	"pa_ringbuffer.h"
+	"pa_util.h"
+	"fftw3.h"
+	"TestSCAMP.h"
+
+1646568426 /home/alberto/TestSCAMP AOA/src/eccfr.h
+
+1646568426 /home/alberto/TestSCAMP AOA/src/golay.h
+
+1646568424 /home/alberto/TestSCAMP AOA/src/pa_ringbuffer.h
+	<sys/types.h>
+
+1646568424 /home/alberto/TestSCAMP AOA/src/pa_util.h
+	"portaudio.h"
+
+1647085655 /home/alberto/TestSCAMP AOA/src/TestSCAMP.h
+
+1646568426 source:/home/alberto/TestSCAMP AOA/src/EccFr.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"eccfr.h"
+
+1646568426 source:/home/alberto/TestSCAMP AOA/src/pa_ringbuffer.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"pa_ringbuffer.h"
+	<string.h>
+	"pa_memorybarrier.h"
+
+1646568424 /home/alberto/TestSCAMP AOA/src/pa_memorybarrier.h
+	<libkern/OSAtomic.h>
+	<stdatomic.h>
+	<intrin.h>
+
+1646568424 source:/home/alberto/TestSCAMP AOA/src/rtty.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<unistd.h>
+	"dspint.h"
+	"rtty.h"
+
+1646568424 source:/home/alberto/TestSCAMP AOA/src/TestGolay.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"golay.h"
+
+1647085726 source:/home/alberto/TestSCAMP AOA/src/TestSCAMP.c
+	<ncurses.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<pthread.h>
+	"portaudio.h"
+	"pa_ringbuffer.h"
+	"pa_util.h"
+	"scamp.h"
+	"dspint.h"
+	"eccfr.h"
+	"golay.h"
+	"fftw3.h"
+	"TestSCAMP.h"
+
+1527062907 /usr/include/ncurses.h
+	<ncurses_dll.h>
+	<stdint.h>
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdbool.h>
+	<libutf8.h>
+	<wchar.h>
+	<unctrl.h>
+
+1527062907 /usr/include/ncurses_dll.h
+
+1643028824 /usr/include/wchar.h
+	<bits/libc-header-start.h>
+	<bits/floatn.h>
+	<stddef.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<bits/types/wint_t.h>
+	<bits/types/mbstate_t.h>
+	<bits/types/__FILE.h>
+	<bits/types/FILE.h>
+	<bits/types/locale_t.h>
+	<bits/wctype-wchar.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1527062907 /usr/include/unctrl.h
+	<curses.h>
+
+1527062907 /usr/include/curses.h
+	<ncurses_dll.h>
+	<stdint.h>
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdbool.h>
+	<libutf8.h>
+	<wchar.h>
+	<unctrl.h>
+
