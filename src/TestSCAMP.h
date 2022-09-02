@@ -2,7 +2,7 @@
  * TestSCAMP.h
  *
  *  Created on: 10 feb 2022
- *      Author: alberto
+ *      Author: Alberto Garlassi I4NZX
  */
 
 #ifndef TESTSCAMP_H_

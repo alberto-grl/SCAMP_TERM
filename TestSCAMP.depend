@@ -21,13 +21,17 @@
 
 1644507318 /home/alberto/Scaricati/src/rtty.h
 
-1643028824 /usr/include/stdio.h
+1645731760 /usr/include/stdio.h
 	<bits/libc-header-start.h>
 	<stddef.h>
+	<stdarg.h>
 	<bits/types.h>
+	<bits/types/__fpos_t.h>
+	<bits/types/__fpos64_t.h>
 	<bits/types/__FILE.h>
 	<bits/types/FILE.h>
-	<bits/libio.h>
+	<bits/types/struct_FILE.h>
+	<bits/types/cookie_io_functions_t.h>
 	<stdarg.h>
 	<bits/stdio_lim.h>
 	<bits/sys_errlist.h>
@@ -36,7 +40,7 @@
 	<bits/stdio2.h>
 	<bits/stdio-ldbl.h>
 
-1643028824 /usr/include/stdlib.h
+1645731760 /usr/include/stdlib.h
 	<bits/libc-header-start.h>
 	<stddef.h>
 	<bits/waitflags.h>
@@ -50,18 +54,18 @@
 	<bits/stdlib.h>
 	<bits/stdlib-ldbl.h>
 
-1643028824 /usr/include/alloca.h
+1645731760 /usr/include/alloca.h
 	<features.h>
 	<stddef.h>
 
-1643028824 /usr/include/features.h
+1645731760 /usr/include/features.h
 	<stdc-predef.h>
 	<sys/cdefs.h>
 	<gnu/stubs.h>
 
-1643028824 /usr/include/stdc-predef.h
+1645731760 /usr/include/stdc-predef.h
 
-1643028824 /usr/include/stdint.h
+1645731760 /usr/include/stdint.h
 	<bits/libc-header-start.h>
 	<bits/types.h>
 	<bits/wchar.h>
@@ -69,20 +73,20 @@
 	<bits/stdint-intn.h>
 	<bits/stdint-uintn.h>
 
-1643028824 /usr/include/string.h
+1645731760 /usr/include/string.h
 	<bits/libc-header-start.h>
 	<stddef.h>
 	<bits/types/locale_t.h>
 	<strings.h>
 	<bits/string_fortified.h>
 
-1643028824 /usr/include/strings.h
+1645731760 /usr/include/strings.h
 	<features.h>
 	<stddef.h>
 	<bits/types/locale_t.h>
 	<bits/strings_fortified.h>
 
-1643028824 /usr/include/math.h
+1645731760 /usr/include/math.h
 	<bits/libc-header-start.h>
 	<bits/types.h>
 	<bits/math-vector.h>
@@ -110,20 +114,34 @@
 	<bits/mathcalls.h>
 	<bits/mathcalls-helper-functions.h>
 	<bits/mathcalls.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
 	<bits/iscanonical.h>
 	<bits/mathinline.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
-	<bits/math-finite.h>
 
-1643028824 /usr/include/unistd.h
+1645731760 /usr/include/unistd.h
 	<features.h>
 	<bits/posix_opt.h>
 	<bits/environments.h>
@@ -132,6 +150,7 @@
 	<bits/confname.h>
 	<bits/getopt_posix.h>
 	<bits/unistd.h>
+	<bits/unistd_ext.h>
 
 1645478170 source:/home/alberto/Scaricati/src/dspint.c
 	<stdio.h>
@@ -150,11 +169,11 @@
 	"fftw3.h"
 	"TestSCAMP.h"
 
-1643028824 /usr/include/pthread.h
+1645731760 /usr/include/pthread.h
 	<features.h>
-	<endian.h>
 	<sched.h>
 	<time.h>
+	<bits/endian.h>
 	<bits/pthreadtypes.h>
 	<bits/setjmp.h>
 	<bits/wordsize.h>
@@ -166,7 +185,7 @@
 	<bits/byteswap.h>
 	<bits/uintn-identity.h>
 
-1643028824 /usr/include/sched.h
+1645731760 /usr/include/sched.h
 	<features.h>
 	<bits/types.h>
 	<stddef.h>
@@ -176,7 +195,7 @@
 	<bits/sched.h>
 	<bits/cpu-set.h>
 
-1643028824 /usr/include/time.h
+1645731760 /usr/include/time.h
 	<features.h>
 	<stddef.h>
 	<bits/time.h>
@@ -193,7 +212,7 @@
 
 1644507318 /home/alberto/Scaricati/src/golay.h
 
-1482700114 /usr/include/portaudio.h
+1585058964 /usr/include/portaudio.h
 
 1644507318 /home/alberto/Scaricati/src/pa_ringbuffer.h
 	<sys/types.h>
@@ -201,7 +220,7 @@
 1644507318 /home/alberto/Scaricati/src/pa_util.h
 	"portaudio.h"
 
-1512854158 /usr/include/fftw3.h
+1575153605 /usr/include/fftw3.h
 	<stdio.h>
 	<stddef.h>
 
@@ -378,7 +397,7 @@
 	"fftw3.h"
 	"TestSCAMP.h"
 
-1527062907 /usr/include/ncurses.h
+1582701266 /usr/include/ncurses.h
 	<ncurses_dll.h>
 	<stdint.h>
 	<stdio.h>
@@ -389,9 +408,9 @@
 	<wchar.h>
 	<unctrl.h>
 
-1527062907 /usr/include/ncurses_dll.h
+1582701266 /usr/include/ncurses_dll.h
 
-1643028824 /usr/include/wchar.h
+1645731760 /usr/include/wchar.h
 	<bits/libc-header-start.h>
 	<bits/floatn.h>
 	<stddef.h>
@@ -406,10 +425,10 @@
 	<bits/wchar2.h>
 	<bits/wchar-ldbl.h>
 
-1527062907 /usr/include/unctrl.h
+1582701266 /usr/include/unctrl.h
 	<curses.h>
 
-1527062907 /usr/include/curses.h
+1582701266 /usr/include/curses.h
 	<ncurses_dll.h>
 	<stdint.h>
 	<stdio.h>
@@ -419,4 +438,114 @@
 	<libutf8.h>
 	<wchar.h>
 	<unctrl.h>
+
+1662128489 source:/home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/cwmod.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<unistd.h>
+	"dspint.h"
+	"cwmod.h"
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/dspint.h
+	"scamp.h"
+	"cwmod.h"
+	"rtty.h"
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/scamp.h
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/cwmod.h
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/rtty.h
+
+1662128489 source:/home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/dspint.c
+	<ncurses.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<pthread.h>
+	"dspint.h"
+	"scamp.h"
+	"eccfr.h"
+	"golay.h"
+	"portaudio.h"
+	"pa_ringbuffer.h"
+	"pa_util.h"
+	"fftw3.h"
+	"TestSCAMP.h"
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/eccfr.h
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/golay.h
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/pa_ringbuffer.h
+	<sys/types.h>
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/pa_util.h
+	"portaudio.h"
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/TestSCAMP.h
+
+1662128489 source:/home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/EccFr.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"eccfr.h"
+
+1662128489 source:/home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/pa_ringbuffer.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"pa_ringbuffer.h"
+	<string.h>
+	"pa_memorybarrier.h"
+
+1662128489 /home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/pa_memorybarrier.h
+	<libkern/OSAtomic.h>
+	<stdatomic.h>
+	<intrin.h>
+
+1662128489 source:/home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/rtty.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<unistd.h>
+	"dspint.h"
+	"rtty.h"
+
+1662128489 source:/home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/TestGolay.c
+	<Arduino.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"golay.h"
+
+1662128489 source:/home/alberto/Dropbox/SCAMP-TERM/SCAMP_TERM/src/TestSCAMP.c
+	<ncurses.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<pthread.h>
+	"portaudio.h"
+	"pa_ringbuffer.h"
+	"pa_util.h"
+	"scamp.h"
+	"dspint.h"
+	"eccfr.h"
+	"golay.h"
+	"fftw3.h"
+	"TestSCAMP.h"
 
